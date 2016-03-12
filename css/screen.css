@@ -1,0 +1,488 @@
+@charset "UTF-8";
+/* line 45, ../sass/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* line 61, ../sass/_normalize.scss */
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+/* line 74, ../sass/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 84, ../sass/_normalize.scss */
+[hidden], template {
+  display: none;
+}
+
+/* line 97, ../sass/_normalize.scss */
+html {
+  background: #fff;
+  color: #000;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 109, ../sass/_normalize.scss */
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif;
+}
+
+/* line 119, ../sass/_normalize.scss */
+body {
+  margin: 0;
+}
+
+/* line 132, ../sass/_normalize.scss */
+a {
+  background: transparent;
+}
+/* line 139, ../sass/_normalize.scss */
+a:focus {
+  outline: thin dotted;
+}
+/* line 145, ../sass/_normalize.scss */
+a:hover, a:active {
+  outline: 0;
+}
+
+/* line 159, ../sass/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 164, ../sass/_normalize.scss */
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0;
+}
+
+/* line 169, ../sass/_normalize.scss */
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+
+/* line 174, ../sass/_normalize.scss */
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0;
+}
+
+/* line 179, ../sass/_normalize.scss */
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0;
+}
+
+/* line 184, ../sass/_normalize.scss */
+h6 {
+  font-size: 0.75em;
+  margin: 2.33em 0;
+}
+
+/* line 192, ../sass/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 198, ../sass/_normalize.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 211, ../sass/_normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 217, ../sass/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* line 233, ../sass/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+/* line 246, ../sass/_normalize.scss */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* line 254, ../sass/_normalize.scss */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/* line 270, ../sass/_normalize.scss */
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 279, ../sass/_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 286, ../sass/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 294, ../sass/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 298, ../sass/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 350, ../sass/_normalize.scss */
+img {
+  border: 0;
+}
+
+/* line 359, ../sass/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 369, ../sass/_normalize.scss */
+figure {
+  margin: 0;
+}
+
+/* line 386, ../sass/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* line 397, ../sass/_normalize.scss */
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal;
+}
+
+/* line 411, ../sass/_normalize.scss */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+}
+
+/* line 426, ../sass/_normalize.scss */
+button, input {
+  line-height: normal;
+}
+
+/* line 435, ../sass/_normalize.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/* line 448, ../sass/_normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+/* line 461, ../sass/_normalize.scss */
+button[disabled],
+input[disabled] {
+  cursor: default;
+}
+
+/* line 470, ../sass/_normalize.scss */
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 479, ../sass/_normalize.scss */
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+/* line 490, ../sass/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 498, ../sass/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+/* line 506, ../sass/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+/* line 516, ../sass/_normalize.scss */
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "OpenSansCond";
+  src: url("../fonts/OpenSansCondensed/OpenSans-CondLight.eot");
+  src: local("тШ║"), url("../fonts/OpenSansCondensed/OpenSans-CondLight.eot?") format("embedded-opentype"), url("../fonts/OpenSansCondensed/OpenSans-CondLight.woff") format("woff"), url("../fonts/OpenSansCondensed/OpenSans-CondLight.woff2") format("woff2"), url("../fonts/OpenSansCondensed/OpenSans-CondLight.ttf") format("truetype"), url("../fonts/OpenSansCondensed/OpenSans-CondLight.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "OpenSansCond";
+  src: url("../fonts/OpenSansCondensed/OpenSans-CondBold.eot");
+  src: local("тШ║"), url("../fonts/OpenSansCondensed/OpenSans-CondBold.eot?") format("embedded-opentype"), url("../fonts/OpenSansCondensed/OpenSans-CondBold.woff") format("woff"), url("../fonts/OpenSansCondensed/OpenSans-CondBold.woff2") format("woff2"), url("../fonts/OpenSansCondensed/OpenSans-CondBold.ttf") format("truetype"), url("../fonts/OpenSansCondensed/OpenSans-CondBold.svg") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+/* line 18, ../sass/_main.scss */
+.imageHover {
+  position: absolute;
+}
+
+/* line 21, ../sass/_main.scss */
+.imageUpper {
+  position: relative;
+  margin-top: -10px;
+}
+
+/* line 25, ../sass/_main.scss */
+.imageUpper:hover {
+  opacity: 0;
+}
+
+/* line 29, ../sass/_main.scss */
+.wrapper {
+  max-width: 1370px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0px solid #444444;
+  min-height: 500px;
+  position: relative;
+}
+/* line 12, ../../../../Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+.wrapper:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+/* line 37, ../sass/_main.scss */
+.menu {
+  position: fixed;
+  top: 0;
+  right: 0px;
+  width: 220px;
+  height: 100%;
+  top: 0;
+  z-index: 10;
+}
+
+/* line 47, ../sass/_main.scss */
+.menuToggle {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.25) url("../image/three.png") no-repeat 50% 50%;
+  background-size: 20px;
+  cursor: pointer;
+}
+/* line 56, ../sass/_main.scss */
+.menuToggle:hover {
+  background: rgba(0, 0, 0, 0.15) url("../image/three.png") no-repeat 50% 50%;
+  background-size: 20px;
+}
+@media (max-width: 900px) {
+  /* line 61, ../sass/_main.scss */
+  .menuToggle {
+    top: 10px;
+    right: 10px;
+  }
+}
+@media (max-width: 700px) {
+  /* line 47, ../sass/_main.scss */
+  .menuToggle {
+    background-size: 15px;
+    cursor: pointer;
+  }
+  /* line 67, ../sass/_main.scss */
+  .menuToggle {
+    top: 5px;
+    right: 5px;
+    width: 30px;
+    height: 30px;
+  }
+  /* line 75, ../sass/_main.scss */
+  .menuToggle:hover {
+    background-size: 15px;
+  }
+}
+@media (max-width: 310px) {
+  /* line 47, ../sass/_main.scss */
+  .menuToggle {
+    background-size: 10px;
+    cursor: pointer;
+  }
+  /* line 80, ../sass/_main.scss */
+  .menuToggle {
+    top: 2px;
+    right: 2px;
+    width: 20px;
+    height: 20px;
+  }
+  /* line 88, ../sass/_main.scss */
+  .menuToggle:hover {
+    background-size: 10px;
+  }
+}
+
+/* line 95, ../sass/_main.scss */
+.menuClose {
+  display: none;
+  position: absolute;
+  top: 15px;
+  left: 5px;
+  width: 40px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.25) url("../image/delete.png") no-repeat 50% 50%;
+  background-size: 20px;
+  cursor: pointer;
+}
+/* line 105, ../sass/_main.scss */
+.menuClose:hover {
+  background: rgba(0, 0, 0, 0.15) url("../image/delete.png") no-repeat 50% 50%;
+  background-size: 20px;
+}
+@media (max-width: 700px) {
+  /* line 95, ../sass/_main.scss */
+  .menuClose {
+    background-size: 15px;
+    cursor: pointer;
+  }
+  /* line 110, ../sass/_main.scss */
+  .menuClose {
+    top: 5px;
+    left: 20px;
+    width: 30px;
+    height: 30px;
+  }
+  /* line 118, ../sass/_main.scss */
+  .menuClose:hover {
+    background-size: 15px;
+  }
+}
+
+/* line 124, ../sass/_main.scss */
+.menuOpen {
+  display: none;
+  position: absolute;
+  background: #1a1a1a;
+  height: 100%;
+  width: 170px;
+  top: 0;
+  left: 60px;
+}
+/* line 132, ../sass/_main.scss */
+.menuOpen ul {
+  padding-top: 10px;
+  padding-left: 20px;
+  text-align: left;
+}
+/* line 137, ../sass/_main.scss */
+.menuOpen li {
+  list-style: none;
+  font-family: OpenSansCond;
+  font-weight: bold;
+  font-size: 16px;
+  padding-top: 15px;
+}
+/* line 143, ../sass/_main.scss */
+.menuOpen li a {
+  text-decoration: none;
+  color: #b1b1b1;
+  cursor: pointer;
+}
+/* line 147, ../sass/_main.scss */
+.menuOpen li a:hover {
+  color: #ffffff;
+}
+/* line 151, ../sass/_main.scss */
+.menuOpen li .iconSocialNetwork {
+  padding-right: 5px;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  /* line 158, ../sass/_main.scss */
+  .menu {
+    right: 10px;
+  }
+}
+/* line 165, ../sass/_main.scss */
+.main_block img {
+  width: 100%;
+  max-width: 1370px;
+  position: relative;
+}
+/* line 170, ../sass/_main.scss */
+.main_block h1 {
+  color: white;
+  position: absolute;
+}

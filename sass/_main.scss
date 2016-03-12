@@ -1,0 +1,186 @@
+@import "breakpoint";
+@import "susy";
+
+$susy: (
+        columns: 18,
+        container: 1370px,
+        global-box-sizing: border-box,
+        gutter-position: inside,
+        debug: (
+                image: hide,
+                color: rgba(#66f, .5),
+                output: background,
+                toggle: top right,
+        )
+);
+
+
+.imageHover {
+  position: absolute;
+}
+.imageUpper {
+  position: relative;
+  margin-top: -10px;
+}
+.imageUpper:hover {
+  opacity: 0;
+}
+
+.wrapper {
+  @include container;
+  border: 0px solid #444444;
+  min-height: 500px;
+  position: relative;
+
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  right: 0px;
+  width: 220px;
+  height: 100%;
+  top: 0;
+  z-index: 10;
+}
+
+.menuToggle {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.25) url("../image/three.png") no-repeat 50% 50%;
+  background-size: 20px;
+  cursor: pointer;
+  &:hover {
+    background: rgba(0, 0, 0, 0.15) url("../image/three.png") no-repeat 50% 50%;
+    background-size: 20px;
+  }
+  @media (max-width: 900px) {
+    & {
+      top: 10px;
+      right: 10px;
+    }
+  }
+  @media (max-width: 700px) {
+    & {
+      top: 5px;
+      right: 5px;
+      width: 30px;
+      height: 30px;
+    }
+    background-size: 15px;
+    cursor: pointer;
+    &:hover {
+          background-size: 15px;
+    }
+  }
+  @media (max-width: 310px) {
+    & {
+      top: 2px;
+      right: 2px;
+      width: 20px;
+      height: 20px;
+    }
+    background-size: 10px;
+    cursor: pointer;
+    &:hover {
+      background-size: 10px;
+    }
+  }
+
+}
+
+.menuClose {
+  display: none;
+  position: absolute;
+  top: 15px;
+  left: 5px;
+  width: 40px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.25) url("../image/delete.png") no-repeat 50% 50%;
+  background-size: 20px;
+  cursor: pointer;
+  &:hover {
+    background: rgba(0, 0, 0, 0.15) url("../image/delete.png") no-repeat 50% 50%;
+    background-size: 20px;
+  }
+  @media (max-width: 700px) {
+    & {
+      top: 5px;
+      left: 20px;
+      width: 30px;
+      height: 30px;
+    }
+    background-size: 15px;
+    cursor: pointer;
+    &:hover {
+      background-size: 15px;
+    }
+  }
+}
+
+.menuOpen {
+  display: none;
+  position: absolute;
+  background: #1a1a1a;
+  height: 100%;
+  width: 170px;
+  top: 0;
+  left: 60px;
+  ul {
+    padding-top: 10px;
+    padding-left: 20px;
+    text-align: left;
+  }
+  li {
+    list-style: none;
+    font-family: $font-sans;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 15px;
+    a {
+      text-decoration: none;
+      color: #b1b1b1;
+      cursor: pointer;
+      &:hover {
+        color: #ffffff;
+      }
+    }
+    .iconSocialNetwork{
+      padding-right:5px;
+    }
+  }
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .menu {
+    right: 10px;
+
+  }
+}
+
+.main_block {
+  img {
+    width: 100%;
+    max-width: 1370px;
+    position: relative;
+  }
+  h1{
+    color: white;
+    position: absolute;
+  }
+}
+
+//.content{
+//  @include span(18);
+//  height: 100%;
+//  border: 1px solid #824518;
+//  @include breakpoint(900px){
+//    @include span(12 of 18);
+//  }
+//}
+
+
+
