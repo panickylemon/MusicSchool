@@ -10,10 +10,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 	<link rel='stylesheet' href='css/screen.css'>
+	<link rel='stylesheet' href='css/jquery.reject.css'>
 	<script src="js/jquery-1.12.0.min.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/jquery.inputmask.bundle.js"></script>
 	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/jquery.reject.js"></script>
 	<script src="bootstrap/js/bootstrap.min.js"></script>
 	<script src="js/main.js"></script>
+	<script src="js/ie.js"></script>
 </head>
 <body>
 
@@ -24,7 +29,7 @@
 		<div class="menuClose"></div>
 		<div class="menuOpen">
 			<ul>
-				<li><a>НАПРАВЛЕНИЯ</a></li>
+				<li><a href="#ourDirections">НАПРАВЛЕНИЯ</a></li>
 				<li><a>ИНСТРУМЕНТЫ</a></li>
 				<li><a>СТОИМОСТЬ</a></li>
 				<li><a>КОНТАКТЫ</a></li>
@@ -35,17 +40,57 @@
 							<img src="image/facebook.png" alt="facebook" class="imageUpper">
 						</a>
 					</span>
-					<span class="iconSocialNetwork"><a>К</a></span>
+					<span class="iconSocialNetwork">
+						<a href="https://twitter.com">
+							<img src="image/twitter_white.png" alt="twitter" class="imageHover">
+							<img src="image/twitter.png" alt="twitter" class="imageUpper">
+						</a>
+					</span>
+					<span class="iconSocialNetwork">
+						<a href="https://vk.com">
+							<img src="image/vk_white.png" alt="vk" class="imageHover">
+							<img src="image/vk.png" alt="vk" class="imageUpper">
+						</a>
+					</span>
 				</li>
 			</ul>
 		</div>
 	</nav>
-
+	<div class="fillWindow">
+		<div class="wrapperForm">
+			<div class="closeForm"><span class="glyphicon glyphicon-remove"></span>
+			</div>
+			<form id="loginform" class="formEnroll" name="formEnroll" method="post">
+				<p>Заполните форму обратной связи и с Вами свяжутся в ближайшее время!</p>
+				<label for="nameInput" class="labelItem">Имя</label>
+				<input id="nameInput" name="inpName" type="text" data-inputmask-regex="[a-zA-ZА-Яа-яЁё]+" />
+				<label for="phoneInput" class="labelItem">Телефон</label>
+				<input id="phoneInput" name="inpPhone"  type="text" data-inputmask-regex="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$" />
+				<input class="buttonSend" type="submit" value="Отправить"/>
+			</form>
+		</div>
+	</div>
 	<article class="trigger main_block">
 		<h1>Музыкальная школа "Виртуозы"</h1>
 		<img src="image/man-person.png" alt="фон">
 
-
+		<div class="buttonEnroll">
+			Записаться
+		</div>
+	</article>
+	<article id="ourDirections" class="trigger ourDirections">
+		<h2>Наши направления</h2>
+		<section>
+			<div class="itemDirections rockDirections">
+				<img src="image/rock.png">
+			</div>
+			<div class="itemDirections traditionalDirections">
+				<img src="image/traditional.png">
+			</div>
+			<div class="itemDirections classicDirections">
+				<img src="image/classical.png">
+			</div>
+		</section>
 	</article>
 
 

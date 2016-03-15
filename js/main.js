@@ -10,12 +10,66 @@ $(document).ready(function(){
         var menu = $(".menuOpen");
         var burger = $(".menuToggle");
         if (!menu.is(e.target) && !burger.is(e.target)// если клик был не по нашему блоку
-            && menu.has(e.target).length === 0
-        && menu.is(':visible')) { // и не по его дочерним элементам
+            && menu.has(e.target).length === 0 // и не по его дочерним элементам
+        && menu.is(':visible')) {
             $(".menuClose").hide();
             burger.show();
             menu.toggle("slide", {direction:"right"}, 500);
         }
     });
+
+    $(".buttonEnroll").click(function() {
+        $(".fillWindow").show();
+
+    });
+
+    $(".fillWindow").click(function (e){ // событие клика по веб-документу
+        var dialog = $(".wrapperForm");
+        var fill_window = $(".fillWindow");
+        var close = $(".closeForm");
+        if (!dialog.is(e.target) // если клик был не по нашему блоку
+            && dialog.has(e.target).length === 0 // и не по его дочерним элементам
+            && fill_window.is(':visible') || close.is(e.target) || close.has(e.target).length) {
+                fill_window.hide();
+        }
+    });
+
 });
+
+
+$(document).ready(function(){
+
+    $("#loginform").validate({
+        rules:{
+            inpName:{
+                required: true,
+            },
+            inpPhone:{
+                required: true,
+                minlength: 11,
+                maxlength: 15,
+            },
+        },
+        messages:{
+            inpName:{
+                required: "Обязательное поле!",
+            },
+            inpPhone:{
+                required: "Обязательное поле!",
+                minlength: "Укажите правильный номер телефона",
+                maxlength: "Укажите правильный номер телефона",
+            },
+        }
+    });
+
+    $("#nameInput").inputmask("Regex");
+    $("#phoneInput").inputmask("Regex");
+
+});
+
+
+
+
+
+
 
