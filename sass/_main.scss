@@ -194,7 +194,7 @@ $susy: (
   @include border-radius(7px);
   @include box-shadow(rgba(0,0,0,0.6) 6px 8px 15px 6px);
   border: 1px solid #616264;
-  background: #4d8bd3;
+  background: #55a0e6;
   background: -webkit-linear-gradient(top, #4398d1, #305e7d);
   background: -moz-linear-gradient(top, #4398d1, #305e7d);
   background: -ms-linear-gradient(top, #4398d1, #305e7d);
@@ -202,7 +202,7 @@ $susy: (
   background-image: -ms-linear-gradient(top, #4398d1 0%, #305e7d 100%);
   cursor: pointer;
   &:hover{
-    background: #627ad3;
+    background: #45ade8;
     background: -webkit-linear-gradient(top, #44b0ea, #326483);
     background: -moz-linear-gradient(top, #44b0ea, #326483);
     background: -ms-linear-gradient(top, #44b0ea, #326483);

@@ -4,7 +4,7 @@
   background: rgba(115, 115, 115, 0.51);
   width: 100%;
   height: 100%;
-  //display: none;
+  display: none;
 }
 
 .wrapperForm{
@@ -88,7 +88,7 @@
     background: -moz-linear-gradient(top, #44b0ea, #326483);
     background: -ms-linear-gradient(top, #44b0ea, #326483);
     background: -o-linear-gradient(top, #44b0ea, #326483);
-    background-image: -ms-linear-gradient(top, #44b0ea 0%, #83ff6e 100%);
+    background-image: -ms-linear-gradient(top, #44b0ea 0%, #326483 100%);
   }
 
 }
