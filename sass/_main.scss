@@ -310,10 +310,6 @@ $susy: (
   padding: 0 8% 6%;
   h2 {
     text-align: center;
-    font-weight: bold;
-    margin-top: 3%;
-    margin-bottom: 30px;
-    font-size: 27px;
   }
   @media (max-width: 1200px) {
     padding: 0 2% 6%;
@@ -323,9 +319,7 @@ $susy: (
 
 .itemDirections {
   width: 50%;
-  border: 0px solid black;
   img {
-    border: 0px solid #445cd3;
     width: 50%;
   }
   .descriptionDirections {
@@ -333,10 +327,7 @@ $susy: (
     text-align: center;
   }
   h3 {
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    border: 0px solid #49d34c;
+   text-align: center;
   }
   p {
     font-size: 15px;
@@ -395,9 +386,6 @@ $susy: (
 @media (max-width: 1000px) {
   .ourDirections {
     padding: 0 1% 6%;
-    h2 {
-      margin-top: 40px;
-    }
   }
   .itemDirections {
     img {
@@ -423,17 +411,9 @@ $susy: (
   .traditionalDirections {
     margin-top: 18%;
   }
-  .ourDirections h2 {
-    margin-bottom: 10px;
-  }
 }
 
 @media (max-width: 890px) {
-  .ourDirections {
-    h2 {
-      margin-top: 30px;
-    }
-  }
   .rockDirections {
     .descriptionDirections {
       padding-top: 3%;
@@ -453,20 +433,10 @@ $susy: (
       padding-top: 0;
     }
   }
-  .ourDirections h2 {
-    margin-bottom: 20px;
-  }
 }
 
 @media (max-width: 750px) {
-  .ourDirections {
-    h2 {
-      margin-top: 20px;
-      font-size: 22px;
-    }
-  }
-
-  .itemDirections {
+ .itemDirections {
     width: 100%;
 
     p {
@@ -500,16 +470,7 @@ $susy: (
 }
 
 @media (max-width: 530px) {
-  .ourDirections {
-    h2 {
-      font-size: 20px;
-    }
-  }
-
   .itemDirections {
-    h3 {
-      font-size: 18px;
-    }
     p {
       font-size: 13px;
     }
@@ -526,7 +487,6 @@ $susy: (
       padding-top: 5%;
     }
   }
-
   .classicDirections {
     .descriptionDirections {
       padding-top: 2%;
@@ -559,7 +519,6 @@ $susy: (
   .itemDirections {
     h3 {
       margin: 0 0 5px !important;
-      font-size: 15px;
     }
     .descriptionDirections {
       width: 75%;
@@ -589,27 +548,18 @@ $susy: (
       width: 80%;
     }
   }
-  .ourDirections h2{
-    margin: 10px 0;
-    font-size: 17px;
-  }
-}
-
-@media (max-width: 350px){
 
 }
 
-//.content{
-//  @include span(18);
-//  height: 100%;
-//  border: 1px solid #824518;
-//  @include breakpoint(900px){
-//    @include span(12 of 18);
-//  }
-//}
 
 .reasonsLearn {
   width: 100%;
-  background: #b8f9ce;
-  height: 300px;
+  background: #f7f9ea;
+  text-align: center;
+  img{
+    width: 15%;
+    max-width: 350px;
+    margin: 0 auto 1%;
+    text-align: center;
+  }
 }
