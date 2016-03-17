@@ -64,7 +64,12 @@ $(document).ready(function(){
 
     $("#nameInput").inputmask("Regex");
     $("#phoneInput").inputmask("Regex");
-
+    wow = new WOW(
+        {
+            mobile:       false,
+        }
+    )
+    wow.init();
 });
 
 

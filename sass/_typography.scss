@@ -24,6 +24,19 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "PTSans";
+  src: url("../fonts/ptsans/ptsans.eot");
+  src: local('☺'),
+  url("../fonts/ptsans/ptsans.eot?") format("embedded-opentype"),
+  url("../fonts/ptsans/ptsans.woff") format("woff"),
+  url("../fonts/ptsans/ptsans.woff2") format("woff2"),
+  url("../fonts/ptsans/ptsans.ttf") format("truetype"),
+  url("../fonts/ptsans/ptsans.svg") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 @font-face {
   font-family: 'Glyphicons Halflings';

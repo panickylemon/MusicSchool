@@ -10,12 +10,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 	<link rel='stylesheet' href='css/screen.css'>
+	<link rel='stylesheet' href='css/animate.css'>
 	<link rel='stylesheet' href='css/jquery.reject.css'>
 	<script src="js/jquery-1.12.0.min.js"></script>
 	<script src="js/jquery.validate.min.js"></script>
 	<script src="js/jquery.inputmask.bundle.js"></script>
 	<script src="js/jquery-ui.min.js"></script>
 	<script src="js/jquery.reject.js"></script>
+	<script src="js/wow.min.js"></script>
 	<script src="bootstrap/js/bootstrap.min.js"></script>
 	<script src="js/main.js"></script>
 	<script src="js/ie.js"></script>
@@ -63,9 +65,10 @@
 			<form id="loginform" class="formEnroll" name="formEnroll" method="post">
 				<p>Заполните форму обратной связи и с Вами свяжутся в ближайшее время!</p>
 				<label for="nameInput" class="labelItem">Имя</label>
-				<input id="nameInput" name="inpName" type="text" data-inputmask-regex="[a-zA-ZА-Яа-яЁё]+" />
+				<input id="nameInput" name="inpName" type="text" data-inputmask-regex="[a-zA-ZА-Яа-яЁё]+"/>
 				<label for="phoneInput" class="labelItem">Телефон</label>
-				<input id="phoneInput" name="inpPhone"  type="text" data-inputmask-regex="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$" />
+				<input id="phoneInput" name="inpPhone" type="text"
+				       data-inputmask-regex="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$"/>
 				<input class="buttonSend" type="submit" value="Отправить"/>
 			</form>
 		</div>
@@ -81,16 +84,56 @@
 	<article id="ourDirections" class="trigger ourDirections">
 		<h2>Наши направления</h2>
 		<section>
-			<div class="itemDirections rockDirections">
-				<img src="image/rock.png">
+			<div class="itemDirections rockDirections fadeInLeft animated wow"  data-wow-delay="0.5s">
+				<img src="image/rock.png" alt="рок">
+
+				<div class="descriptionDirections">
+					<h3>Рок</h3>
+
+					<p>Как правило, инструментарий рока - электрический,
+						однако это не является обязательным условием: рок может быть акустическим,
+						синтезированным и даже чисто вокальным.
+						<span>Большинство существующих на данный момент
+						музыкальных течений в основе своей имеют рок.
+						</span>
+					</p>
+
+				</div>
 			</div>
-			<div class="itemDirections traditionalDirections">
-				<img src="image/traditional.png">
+			<div class="itemDirections traditionalDirections fadeInRight animated wow"  data-wow-delay="0.7s">
+				<img src="image/traditional.png" alt="традиционная музыка">
+
+				<div class="descriptionDirections">
+					<h3>Традиционная музыка</h3>
+
+					<p>Музыка, несущая в себе черты музыкальной традиции какого-либо этноса,
+						<span>что может выражаться как в исполнении традиционных народных песен, так и в использовании
+						народных инструментов, элементов мелодики, композиционного построения,
+						</span> характерного для
+						жанров музыкального фольклора того или иного народа.
+					</p>
+				</div>
 			</div>
-			<div class="itemDirections classicDirections">
-				<img src="image/classical.png">
+			<div class="itemDirections classicDirections fadeInLeft animated wow"  data-wow-delay="1s">
+				<img src="image/classical.png" alt="классика">
+
+				<div class="descriptionDirections">
+					<h3>Классика</h3>
+
+					<p>Музыкальные произведения, отвечающие самым высоким художественным
+						требованиям и сочетающие глубину, содержательность и совершенство формы.
+						<span> Классика не ограничена какими-либо временными рамками: к ней могут быть отнесены как
+							произведения, созданные в далеком прошлом, так и современные сочинения.
+						</span>
+					</p>
+				</div>
 			</div>
 		</section>
+	</article>
+
+	<article class="trigger reasonsLearn">
+		<h2>Причины</h2>
+		бла бла
 	</article>
 
 
