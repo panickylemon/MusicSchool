@@ -1,0 +1,214 @@
+.reasonsLearn {
+  width: 100%;
+  background: #f7f9ea;
+  .imgGuitar{
+    text-align: center;
+  }
+  .imgGuitar img{
+    width: 15%;
+    max-width: 195px;
+    margin: 0 auto 2%;
+  }
+  .reasonsBlock{
+    position: absolute;
+    top: 30%;
+    img{
+      max-width: 30px;
+      width: 100%;
+    }
+  }
+  .leftBlock{
+    text-align: right;
+    left: 15%;
+  }
+  .rightBlock{
+    right: 15%;
+  }
+  .itemReasons{
+    font-size: 19px;
+    font-weight: bold;
+    color: #220011;
+    padding-top: 5px;
+    margin-bottom: 20%;
+  }
+}
+
+
+@media (max-width: 1200px) {
+  .reasonsLearn {
+    .leftBlock {
+      left: 10%;
+    }
+    .rightBlock {
+      right: 10%;
+    }
+  }
+}
+
+@media (max-width: 1025px) {
+  .reasonsLearn {
+    h2{
+      margin-bottom: 3%;
+    }
+    .leftBlock {
+      left: 5%;
+    }
+    .rightBlock {
+      right: 5%;
+    }
+    .reasonsBlock{
+      top: 25%;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .reasonsLearn {
+    .itemReasons{
+      font-size: 17px;
+      margin-bottom: 17%;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .reasonsLearn {
+    .leftBlock {
+      left: 2%;
+    }
+    .rightBlock {
+      right: 2%;
+    }
+  }
+}
+
+
+@media (max-width: 750px) {
+  .reasonsLearn {
+    .itemReasons{
+      font-size: 16px;
+      margin-bottom: 13%;
+    }
+
+  }
+}
+
+
+@media (max-width: 695px) {
+  .reasonsLearn {
+    .itemReasons{
+      font-size: 14px;
+      margin-bottom: 13%;
+    }
+  }
+}
+
+
+@media (max-width: 610px) {
+  .reasonsLearn {
+    &:after, &:before {
+      clear: both;
+      content: " ";
+      display: table;
+    }
+    .imgGuitar{
+      float: left;
+      width: 30%;
+      text-align: center;
+      img {
+        width: 100%;
+        margin: 5% auto;
+        padding-left:40%;
+      }
+    }
+    .reasonsBlock {
+      position: static;
+      img{
+        max-width: 20px;
+      }
+    }
+    .twoBlockReasons{
+      float: right;
+      margin: 1% 5%;
+      width: 50%;
+    }
+    .leftBlock{
+      text-align: left;
+    }
+    .itemReasons{
+      padding-top: 1px;
+      margin-bottom: 3%;
+    }
+  }
+}
+
+@media (max-width: 490px) {
+  .reasonsLearn {
+    .imgGuitar{
+      width: 25%;
+      text-align: center;
+      img {
+        margin: 32% auto 0;
+        padding-left: 35%;
+      }
+    }
+    .reasonsBlock {
+      img{
+        max-width: 17px;
+      }
+    }
+    .twoBlockReasons{
+      float: right;
+      margin: 1% auto;
+      width: 60%;
+    }
+    .leftBlock{
+      text-align: left;
+    }
+    .itemReasons{
+      padding-top: 1px;
+      margin-bottom: 3%;
+      font-size: 13px;
+    }
+
+  }
+}
+
+@media (max-width: 400px) {
+  .reasonsLearn {
+    .imgGuitar{
+      display: none;
+    }
+    h2{
+      margin-bottom: 0;
+    }
+    .twoBlockReasons{
+      float: none;
+      margin: 0 auto 2%;
+      padding-bottom: 2%;
+      width: 245px;
+    }
+    .itemReasons{
+      padding: 0;
+      margin: -17px 0 0 27px;
+    }
+    .reasonsBlock {
+      img{
+        padding-top: 10px;
+      }
+      .itemReasons{
+        margin: -17px 0 0 25px;
+      }
+    }
+  }
+}
+
+@media (max-width: 280px){
+  .reasonsLearn {
+    .twoBlockReasons{
+      margin: 0 auto 4%;
+      padding: 0 2% 2%;
+      width: 100%;
+    }
+  }
+}

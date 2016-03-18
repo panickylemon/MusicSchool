@@ -1,11 +1,13 @@
-@import "normalize";
+@import "base/_normalize";
 @import "compass";
-@import "variables";
-@import "mixins";
-@import "typography";
-@import "form";
+@import "helpers/_variables";
+@import "helpers/_mixins";
+@import "base/typography";
+@import "components/form";
 @import "main";
-
+@import "page/directions";
+@import "page/reasons";
+@import "page/instruments";
 
 
 

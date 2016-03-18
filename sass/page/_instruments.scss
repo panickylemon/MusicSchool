@@ -1,0 +1,10 @@
+.musInstruments{
+  img{
+    width: 100%;
+  }
+  .strings, .winds, .keyboards,.drums,.reeds, .electronics  {
+    @include span(6 of 18);
+    padding: 0;
+  }
+
+}

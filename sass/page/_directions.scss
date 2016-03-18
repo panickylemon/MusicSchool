@@ -1,0 +1,271 @@
+.ourDirections {
+  padding: 0 8% 6%;
+  @media (max-width: 1200px) {
+    padding: 0 2% 6%;
+  }
+
+}
+
+.itemDirections {
+  width: 50%;
+  img {
+    width: 50%;
+  }
+  .descriptionDirections {
+    width: 45%;
+    text-align: center;
+  }
+  h3 {
+    text-align: center;
+  }
+  p {
+    font-size: 15px;
+    font-family: PTSans;
+  }
+  &:after, &:before {
+    clear: both;
+    content: " ";
+    display: table;
+  }
+}
+
+.rockDirections {
+  float: left;
+  img {
+    max-width: 280px;
+    float: left;
+  }
+  .descriptionDirections {
+    float: left;
+    padding-top: 11%;
+    padding-left: 2%;
+
+  }
+}
+
+.traditionalDirections {
+  float: right;
+  margin-top: 22%;
+  img {
+    max-width: 230px;
+    float: right;
+  }
+  .descriptionDirections {
+    float: right;
+    padding-right: 2%;
+    padding-top: 9%;
+  }
+}
+
+.classicDirections {
+  float: left;
+  margin-top: 7%;
+  img {
+    max-width: 310px;
+    width: 60%;
+    float: left;
+  }
+  .descriptionDirections {
+    float: left;
+    width: 40%;
+    padding-top: 7%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .ourDirections {
+    padding: 0 1% 6%;
+  }
+  .itemDirections {
+    img {
+      width: 40%;
+    }
+    .descriptionDirections {
+      width: 55%;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+  .classicDirections {
+    margin-top: 10%;
+    img {
+      width: 47%;
+    }
+    .descriptionDirections {
+      padding-top: 2%;
+      width: 53%;
+    }
+  }
+  .traditionalDirections {
+    margin-top: 18%;
+  }
+}
+
+@media (max-width: 890px) {
+  .rockDirections {
+    .descriptionDirections {
+      padding-top: 3%;
+    }
+  }
+  .classicDirections {
+    margin-top: 13%;
+    .descriptionDirections {
+      padding-top: 0;
+    }
+  }
+  .traditionalDirections {
+    margin-top: 25%;
+    .descriptionDirections {
+      float: right;
+      padding-right: 2%;
+      padding-top: 0;
+    }
+  }
+}
+
+@media (max-width: 750px) {
+  .itemDirections {
+    width: 100%;
+
+    p {
+      font-size: 15px;
+    }
+
+  }
+  .rockDirections {
+    float: none;
+    img {
+      width: 29%;
+    }
+    .descriptionDirections {
+      padding-top: 11%;
+      width: 70%;
+    }
+  }
+
+  .traditionalDirections {
+    float: none;
+    margin-top: 0;
+    img {
+      width: 25%;
+    }
+    .descriptionDirections {
+      padding-top: 5%;
+      width: 70%;
+    }
+  }
+
+  .classicDirections {
+    float: none;
+    margin-top: 0;
+    img {
+      width: 33%;
+    }
+    .descriptionDirections {
+      width: 67%;
+      padding-top: 7%;
+    }
+  }
+}
+
+@media (max-width: 610px) {
+  .itemDirections {
+    p {
+      font-size: 13px;
+    }
+  }
+  .rockDirections {
+    .descriptionDirections {
+      padding-top: 5%;
+    }
+  }
+  .traditionalDirections {
+    .descriptionDirections {
+      padding-top: 1%;
+    }
+  }
+  .classicDirections {
+    .descriptionDirections {
+      padding-top: 2%;
+    }
+  }
+
+}
+
+@media (max-width: 450px) {
+  .rockDirections {
+    .descriptionDirections {
+      padding-top: 3%;
+    }
+  }
+  .itemDirections {
+    h3 {
+      margin: 0 0 10px !important;
+    }
+  }
+  .traditionalDirections, .classicDirections {
+    margin-top: 5%;
+    .descriptionDirections {
+      padding-top: 0;
+    }
+  }
+
+}
+
+@media (max-width: 400px) {
+  .itemDirections {
+    h3 {
+      margin: 0 0 5px !important;
+    }
+    .descriptionDirections {
+      width: 80%;
+      text-align: justify;
+      padding: 0 5px;
+      p span {
+        display: none;
+      }
+      p {
+        font-size: 12px;
+        line-height: 1.2;
+      }
+
+    }
+    img {
+      width: 20%;
+    }
+  }
+  .traditionalDirections, .classicDirections {
+    margin-top: 1%;
+  }
+  .traditionalDirections {
+    img {
+      width: 15%;
+    }
+    .descriptionDirections {
+      width: 85%;
+    }
+  }
+  .rockDirections {
+    .descriptionDirections {
+      padding-top: 2%;
+    }
+  }
+}
+
+@media (max-width: 300px) {
+  .itemDirections {
+    img {
+      width: 20%;
+      margin-top: 5%;
+    }
+  }
+  .traditionalDirections {
+    img {
+      width: 15%;
+    }
+    .descriptionDirections {
+      width: 85%;
+    }
+  }
+}
