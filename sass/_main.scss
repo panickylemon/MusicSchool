@@ -19,8 +19,7 @@ $susy: (
 }
 
 .imageUpper {
-  position: relative;
-  margin-top: -10px;
+   position: relative;
 }
 
 .imageUpper:hover {
@@ -34,6 +33,10 @@ $susy: (
 //.right{
 //  float: right;
 //}
+
+.zIndex{
+  z-index: 999 !important;
+}
 
 .wrapper {
   @include container;
@@ -168,7 +171,10 @@ $susy: (
       }
     }
     .iconSocialNetwork {
-      padding-right: 11px;
+      padding-right: 8px;
+    }
+    .iconSocialNetwork.fa{
+      font-size: 18px;
     }
   }
   li:last-child {
@@ -202,6 +208,7 @@ $susy: (
   width: 16%;
   min-width: 55px;
   position: absolute;
+  z-index: 11;
   right: 20%;
   bottom: 21%;
   color: white;

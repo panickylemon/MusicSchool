@@ -4,6 +4,7 @@ $(document).ready(function(){
         $(".menuToggle").hide();
         $(".menuOpen").toggle("slide", {direction:"right"}, 500);
         $(".menuClose").delay(400).fadeIn(100);
+        $(".menu").addClass("zIndex");
     });
 
     $(document).click(function (e){ // событие клика по веб-документу
@@ -13,6 +14,7 @@ $(document).ready(function(){
             && menu.has(e.target).length === 0 // и не по его дочерним элементам
         && menu.is(':visible')) {
             $(".menuClose").hide();
+            $(".menu").removeClass("zIndex");
             burger.show();
             menu.toggle("slide", {direction:"right"}, 500);
         }
