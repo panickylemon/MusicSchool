@@ -112,3 +112,10 @@
 .hasPlaceholder {
   color: #000000;
 }
+
+
+@media (max-width: 430px) {
+  .wrapperForm{
+    font-size: 14px;
+  }
+}

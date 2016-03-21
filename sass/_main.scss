@@ -196,6 +196,24 @@ $susy: (
 }
 
 .buttonEnroll {
+
+  .textButtonEnroll {
+    margin-right: -5%;
+    display:-moz-inline-box;
+    display:inline-block;
+    vertical-align:middle;
+    zoom:1;
+    //display:inline;
+  }
+  .helper {
+    display:-moz-inline-box;
+    display:inline-block;
+    vertical-align:middle;
+    height:100%;
+    width:0;
+    zoom:1;
+    //display:inline;
+  }
   height: 8%;
   min-height: 15px;
   width: 16%;
@@ -208,7 +226,6 @@ $susy: (
   text-align: center;
   font-weight: bold;
   font-size: 20px;
-  padding-top: 10px;
   @include border-radius(7px);
   @include box-shadow(rgba(0, 0, 0, 0.6) 6px 8px 15px 6px);
   border: 1px solid #616264;
@@ -227,25 +244,14 @@ $susy: (
     background: -o-linear-gradient(top, #44b0ea, #326483);
     background-image: -ms-linear-gradient(top, #44b0ea 0%, #326483 100%);
   }
-  @media (max-width: 1280px) {
-    & {
-      padding-top: 8px;
-    }
-  }
+
   @media (max-width: 1200px) {
     & {
       height: 9%;
-      padding-top: 0.8%;
-    }
-  }
-  @media (max-width: 1010px) {
-    & {
-      padding-top: 0.6%;
     }
   }
   @media (max-width: 930px) {
     & {
-      padding-top: 0.6%;
       height: 10%;
       width: 17%;
     }
@@ -259,14 +265,12 @@ $susy: (
   @media (max-width: 740px) {
     & {
       font-size: 16px;
-      padding-top: 0.5%;
     }
   }
 
   @media (max-width: 630px) {
     & {
       font-size: 15px;
-      padding-top: 0.3%;
     }
   }
   @media (max-width: 575px) {

@@ -506,6 +506,12 @@ h3 {
   color: #000000;
 }
 
+@media (max-width: 430px) {
+  /* line 118, ../sass/components/_form.scss */
+  .wrapperForm {
+    font-size: 14px;
+  }
+}
 /* line 17, ../sass/_main.scss */
 .imageHover {
   position: absolute;
@@ -746,7 +752,6 @@ h3 {
   text-align: center;
   font-weight: bold;
   font-size: 20px;
-  padding-top: 10px;
   -moz-border-radius: 7px;
   -webkit-border-radius: 7px;
   border-radius: 7px;
@@ -762,7 +767,24 @@ h3 {
   background-image: -ms-linear-gradient(top, #4398d1 0%, #305e7d 100%);
   cursor: pointer;
 }
-/* line 222, ../sass/_main.scss */
+/* line 200, ../sass/_main.scss */
+.buttonEnroll .textButtonEnroll {
+  margin-right: -5%;
+  display: -moz-inline-box;
+  display: inline-block;
+  vertical-align: middle;
+  zoom: 1;
+}
+/* line 208, ../sass/_main.scss */
+.buttonEnroll .helper {
+  display: -moz-inline-box;
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+  width: 0;
+  zoom: 1;
+}
+/* line 239, ../sass/_main.scss */
 .buttonEnroll:hover {
   background: #45ade8;
   background: -webkit-linear-gradient(top, #44b0ea, #326483);
@@ -771,35 +793,21 @@ h3 {
   background: -o-linear-gradient(top, #44b0ea, #326483);
   background-image: -ms-linear-gradient(top, #44b0ea 0%, #326483 100%);
 }
-@media (max-width: 1280px) {
-  /* line 231, ../sass/_main.scss */
-  .buttonEnroll {
-    padding-top: 8px;
-  }
-}
 @media (max-width: 1200px) {
-  /* line 236, ../sass/_main.scss */
+  /* line 249, ../sass/_main.scss */
   .buttonEnroll {
     height: 9%;
-    padding-top: 0.8%;
-  }
-}
-@media (max-width: 1010px) {
-  /* line 242, ../sass/_main.scss */
-  .buttonEnroll {
-    padding-top: 0.6%;
   }
 }
 @media (max-width: 930px) {
-  /* line 247, ../sass/_main.scss */
+  /* line 254, ../sass/_main.scss */
   .buttonEnroll {
-    padding-top: 0.6%;
     height: 10%;
     width: 17%;
   }
 }
 @media (max-width: 820px) {
-  /* line 254, ../sass/_main.scss */
+  /* line 260, ../sass/_main.scss */
   .buttonEnroll {
     font-size: 18px;
     -moz-border-radius: 5px;
@@ -808,21 +816,19 @@ h3 {
   }
 }
 @media (max-width: 740px) {
-  /* line 260, ../sass/_main.scss */
+  /* line 266, ../sass/_main.scss */
   .buttonEnroll {
     font-size: 16px;
-    padding-top: 0.5%;
   }
 }
 @media (max-width: 630px) {
-  /* line 267, ../sass/_main.scss */
+  /* line 272, ../sass/_main.scss */
   .buttonEnroll {
     font-size: 15px;
-    padding-top: 0.3%;
   }
 }
 @media (max-width: 575px) {
-  /* line 273, ../sass/_main.scss */
+  /* line 277, ../sass/_main.scss */
   .buttonEnroll {
     font-size: 14px;
     width: 100px;
@@ -832,7 +838,7 @@ h3 {
   }
 }
 @media (max-width: 445px) {
-  /* line 282, ../sass/_main.scss */
+  /* line 286, ../sass/_main.scss */
   .buttonEnroll {
     font-size: 13px;
     width: 95px;
@@ -845,7 +851,7 @@ h3 {
   }
 }
 @media (max-width: 380px) {
-  /* line 292, ../sass/_main.scss */
+  /* line 296, ../sass/_main.scss */
   .buttonEnroll {
     font-size: 11px;
     width: 85px;
@@ -854,7 +860,7 @@ h3 {
   }
 }
 @media (max-width: 300px) {
-  /* line 300, ../sass/_main.scss */
+  /* line 304, ../sass/_main.scss */
   .buttonEnroll {
     font-size: 10px;
     width: 75px;
@@ -863,7 +869,7 @@ h3 {
   }
 }
 @media (max-width: 250px) {
-  /* line 308, ../sass/_main.scss */
+  /* line 312, ../sass/_main.scss */
   .buttonEnroll {
     font-size: 9px;
     width: 70px;
@@ -1616,9 +1622,13 @@ h3 {
   text-align: center;
   padding: 0 20px;
 }
+/* line 36, ../sass/page/_costs.scss */
+.priceTrigger .additionalPrice p {
+  color: #27415a;
+}
 
 @media (max-width: 1100px) {
-  /* line 42, ../sass/page/_costs.scss */
+  /* line 44, ../sass/page/_costs.scss */
   .priceTrigger .wrapperPriceBlock {
     width: 84%;
     margin: 2% auto 10%;
@@ -1626,56 +1636,56 @@ h3 {
   }
 }
 @media (max-width: 1000px) {
-  /* line 52, ../sass/page/_costs.scss */
+  /* line 54, ../sass/page/_costs.scss */
   .priceTrigger .wrapperPriceBlock {
     margin: 2% auto 10%;
     height: 310px;
   }
-  /* line 56, ../sass/page/_costs.scss */
+  /* line 58, ../sass/page/_costs.scss */
   .priceTrigger p {
     font-size: 17px;
     text-align: center;
     padding: 0 15px;
   }
-  /* line 61, ../sass/page/_costs.scss */
+  /* line 63, ../sass/page/_costs.scss */
   .priceTrigger h4 {
     font-size: 22px;
     margin: 10% 0;
   }
-  /* line 65, ../sass/page/_costs.scss */
+  /* line 67, ../sass/page/_costs.scss */
   .priceTrigger .additionalPrice p {
     font-size: 16px;
   }
 }
 @media (max-width: 800px) {
-  /* line 74, ../sass/page/_costs.scss */
+  /* line 76, ../sass/page/_costs.scss */
   .priceTrigger .wrapperPriceBlock {
     width: 98%;
     height: 290px;
   }
-  /* line 78, ../sass/page/_costs.scss */
+  /* line 80, ../sass/page/_costs.scss */
   .priceTrigger h3 {
     font-size: 17px;
     padding: 20px 0;
   }
-  /* line 82, ../sass/page/_costs.scss */
+  /* line 84, ../sass/page/_costs.scss */
   .priceTrigger h4 {
     font-size: 20px;
   }
 }
 @media (max-width: 550px) {
-  /* line 89, ../sass/page/_costs.scss */
+  /* line 91, ../sass/page/_costs.scss */
   .priceTrigger {
     margin-bottom: 2%;
   }
-  /* line 91, ../sass/page/_costs.scss */
+  /* line 93, ../sass/page/_costs.scss */
   .priceTrigger .itemPrice {
     width: 100%;
     float: left;
     padding-left: 0.55556%;
     padding-right: 0.55556%;
   }
-  /* line 94, ../sass/page/_costs.scss */
+  /* line 96, ../sass/page/_costs.scss */
   .priceTrigger .wrapperPriceBlock {
     border: 1px solid #27415a;
     width: 98%;
@@ -1683,21 +1693,21 @@ h3 {
     margin: 0 auto 2%;
     height: 100%;
   }
-  /* line 101, ../sass/page/_costs.scss */
+  /* line 103, ../sass/page/_costs.scss */
   .priceTrigger h3 {
     padding: 7px 0;
   }
-  /* line 104, ../sass/page/_costs.scss */
+  /* line 106, ../sass/page/_costs.scss */
   .priceTrigger h4 {
     margin: 1% 0;
     font-size: 18px;
   }
-  /* line 108, ../sass/page/_costs.scss */
+  /* line 110, ../sass/page/_costs.scss */
   .priceTrigger p {
     font-size: 16px;
     padding: 0 5px;
   }
-  /* line 112, ../sass/page/_costs.scss */
+  /* line 114, ../sass/page/_costs.scss */
   .priceTrigger .additionalPrice p {
     font-size: 15px;
     text-align: justify;
@@ -1705,21 +1715,21 @@ h3 {
   }
 }
 @media (max-width: 400px) {
-  /* line 122, ../sass/page/_costs.scss */
+  /* line 124, ../sass/page/_costs.scss */
   .priceTrigger h3 {
     padding: 5px 0;
     font-size: 15px;
   }
-  /* line 126, ../sass/page/_costs.scss */
+  /* line 128, ../sass/page/_costs.scss */
   .priceTrigger h4 {
     font-size: 16px;
   }
-  /* line 129, ../sass/page/_costs.scss */
+  /* line 131, ../sass/page/_costs.scss */
   .priceTrigger p {
     font-size: 15px;
     padding: 0 5px;
   }
-  /* line 133, ../sass/page/_costs.scss */
+  /* line 135, ../sass/page/_costs.scss */
   .priceTrigger .additionalPrice p {
     font-size: 14px;
     padding: 0 2%;
@@ -1728,5 +1738,9 @@ h3 {
 /* line 1, ../sass/page/_contacts.scss */
 .contactsTrigger {
   height: 500px;
-  background: #a4ffc1;
+}
+/* line 3, ../sass/page/_contacts.scss */
+.contactsTrigger img {
+  width: 100%;
+  max-width: 1370px;
 }

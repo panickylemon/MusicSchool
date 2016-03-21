@@ -14,11 +14,11 @@ $(document).ready(function(){
             && menu.has(e.target).length === 0 // и не по его дочерним элементам
         && menu.is(':visible')) {
             $(".menuClose").hide();
-            //function pausemyform (){
-            //    boxesInWindow.removeClass("zIndex");
-            //}
-            //setTimeout (pausemyform,5000);
-            $(".menu").removeClass("zIndex");
+
+            setTimeout(function() {
+                $(".menu").removeClass("zIndex");
+            }, 500);
+
             //burger.show();
             burger.delay(400).fadeIn(100);
             menu.toggle("slide", {direction:"right"}, 500);
