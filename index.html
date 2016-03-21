@@ -28,14 +28,15 @@
 
 
 <main class="wrapper">
+	<div class="menuToggle"></div>
 	<nav class="menu menuWrapper">
-		<div class="menuToggle"></div>
+		<!--<div class="menuToggle"></div>-->
 		<div class="menuClose"></div>
 		<div class="menuOpen">
 			<ul>
 				<li><a href="#ourDirections">НАПРАВЛЕНИЯ</a></li>
-				<li><a>ИНСТРУМЕНТЫ</a></li>
-				<li><a>СТОИМОСТЬ</a></li>
+				<li><a href="#musInstruments">ИНСТРУМЕНТЫ</a></li>
+				<li><a href="#priceTrigger">СТОИМОСТЬ</a></li>
 				<li><a>КОНТАКТЫ</a></li>
 				<li>
 					<a href="https://www.facebook.com"><span class="iconSocialNetwork fa fa-facebook"></span></a>
@@ -124,7 +125,7 @@
 
 		<div class="imgGuitar"><img src="image/guitar.png" alt="гитара"></div>
 		<div class="twoBlockReasons ">
-			<div class="leftBlock reasonsBlock fadeInUp animated wow" data-wow-delay="0.5s">
+			<div class="leftBlock reasonsBlock zoomIn animated wow" data-wow-delay="0.4s">
 				<div>
 					<img src="image/group.png" alt="иконка">
 
@@ -141,7 +142,7 @@
 					<p class="itemReasons">Занятия в удобное для Вас время</p>
 				</div>
 			</div>
-			<div class="rightBlock reasonsBlock fadeInUp animated wow" data-wow-delay="0.5s">
+			<div class="rightBlock reasonsBlock zoomIn animated wow" data-wow-delay="0.4s">
 				<div>
 					<img src="image/saxophone.png" alt="иконка">
 
@@ -160,17 +161,17 @@
 			</div>
 		</div>
 	</article>
-	<article class="trigger musInstruments">
+	<article id="musInstruments" class="trigger musInstruments">
 		<h2>Направления по музыкальным инструментам</h2>
 
 		<div class="strings view">
-				<div class="imgInstruments">
-					<img src="image/strings.png" alt="струнные" class="imageHover">
-					<img src="image/strings2.png" alt="струнные" class="imageUpper">
-				</div>
-				<div class="info">
-					<h3>Струнные</h3>
-				</div>
+			<div class="imgInstruments">
+				<img src="image/strings.png" alt="струнные" class="imageHover">
+				<img src="image/strings2.png" alt="струнные" class="imageUpper">
+			</div>
+			<div class="info">
+				<h3>Струнные</h3>
+			</div>
 		</div>
 		<div class="winds view">
 			<div class="imgInstruments">
@@ -218,6 +219,46 @@
 			</div>
 		</div>
 
+	</article>
+	<article id="priceTrigger" class="trigger priceTrigger">
+		<h2>Стоимость обучения</h2>
+		<section class="itemPrice zoomIn animated wow" data-wow-delay="0.4s">
+			<div class="wrapperPriceBlock">
+				<h3>Первое занятие</h3>
+				<div>
+					<h4>Бесплатно</h4>
+					<p> Первое пробное занятие по записи – бесплатное!</p>
+				</div>
+			</div>
+		</section>
+		<section class="itemPrice zoomIn animated wow" data-wow-delay="0.4s">
+			<div class="wrapperPriceBlock">
+				<h3>Абонемент на месяц</h3>
+				<div>
+					<h4>4 000 руб.</h4>
+					<p> За 1 месяц (занятия 2 раза в неделю)<br> или <br> 7 000 руб./месяц (занятия 4 раза в неделю)</p>
+				</div>
+			</div>
+		</section>
+		<section class="itemPrice zoomIn animated wow" data-wow-delay="0.4s">
+			<div class="wrapperPriceBlock">
+				<h3>Абонемент на год</h3>
+				<div>
+					<h4>40 000 руб.</h4>
+					<p> За год (занятия 2 раза в неделю)<br> или <br> 70 000 руб./месяц (занятия 4 раза в неделю)</p>
+				</div>
+			</div>
+		</section>
+		<section class="additionalPrice">
+			<p>Стоимость обучения может измениться при составлении <b>индивидуального графика</b>
+				и программы занятий. А также возможны различные скидки.
+				<p>Если вас двое и вы хотите учиться вместе, для вас действует специальная скидка - 10% на все
+			курсы!</p>
+
+			</p>
+		</section>
+	</article>
+	<article id="contactsTrigger" class="trigger contactsTrigger">
 	</article>
 </main>
 
