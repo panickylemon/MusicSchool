@@ -75,7 +75,7 @@ $(document).ready(function(){
         {
             mobile:       false,
         }
-    )
+    );
     wow.init();
 });
 

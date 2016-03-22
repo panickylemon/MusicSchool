@@ -91,11 +91,6 @@
         font-size: 15px;
       }
     }
-    .contactsSocNetwork {
-      span {
-        padding-right: 10px;
-      }
-    }
     .contactsText {
       padding: 1% 3% 0 15%;
     }
@@ -121,7 +116,7 @@
 
 @media (max-width: 570px) {
   .contactsTrigger {
-    background: #f4f9f5;
+    background: #e5f5f7;
     img {
       display: none;
     }
@@ -135,6 +130,11 @@
     }
     p.mySocNetwork {
       margin: -22px 0 5px;
+    }
+    .contactsSocNetwork {
+      span {
+        padding-right: 18px;
+      }
     }
     .iconItem {
       span {
