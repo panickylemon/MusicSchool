@@ -7,6 +7,12 @@
  * Copyright: Copyright (c) 2009-2014 Steven Bower under dual MIT/GPL license.
  */
 
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	.menuToggle{
+		margin-right: 10px;
+	}
+}
+
 #jr_overlay {
 	top: 0;
 	left: 0;
