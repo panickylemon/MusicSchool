@@ -1,5 +1,5 @@
 .priceTrigger{
-  margin-bottom: 5%;
+  padding-bottom: 5%;
   h2 {
     margin: 3% 2%;
   }
@@ -73,7 +73,7 @@
 
 @media (max-width: 800px) {
   .priceTrigger{
-    margin-bottom: 2%;
+    padding-bottom: 2%;
     .wrapperPriceBlock{
       width: 98%;
       height: 290px;
@@ -90,7 +90,7 @@
 
 @media (max-width: 550px) {
   .priceTrigger{
-    margin-bottom: 1%;
+    padding-bottom: 1%;
     .itemPrice {
       @include span(18 of 18);
     }

@@ -42,6 +42,7 @@ $susy: (
 
 .trigger {
   position: relative;
+  background: white;
   &:after, &:before {
     clear: both;
     content: " ";
