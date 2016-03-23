@@ -23,6 +23,10 @@ $susy: (
    position: relative;
 }
 
+a {
+  outline: none !important;
+}
+
 .imageUpper:hover {
   opacity: 0;
 }

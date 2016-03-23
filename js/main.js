@@ -69,6 +69,18 @@ $(document).ready(function(){
         }
     });
 
+
+    $("a.topLink").click(function() {
+        $("html, body").animate({
+            scrollTop: $($(this).attr("href")).offset().top + "px"
+        }, {
+            duration: 800,
+            easing: "swing"
+        });
+        return false;
+    });
+
+
     $("#nameInput").inputmask("Regex");
     $("#phoneInput").inputmask("Regex");
     wow = new WOW(
@@ -78,8 +90,6 @@ $(document).ready(function(){
     );
     wow.init();
 });
-
-
 
 
 
