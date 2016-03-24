@@ -203,9 +203,20 @@ a {
     max-width: 1370px;
     position: relative;
   }
+  .backgrMobile{
+    display: none;
+  }
   h1 {
     color: white;
     position: absolute;
+  }
+  @media (max-width: 768px) {
+    .backgr {
+      display: none;
+    }
+    .backgrMobile{
+      display: block;
+    }
   }
 }
 
@@ -228,14 +239,15 @@ a {
     zoom:1;
     //display:inline;
   }
-  height: 8%;
+  height: 7%;
   min-height: 15px;
   width: 16%;
   min-width: 55px;
   position: absolute;
   z-index: 11;
   right: 20%;
-  bottom: 21%;
+  //bottom: 21%;
+  bottom: 27%;
   color: white;
   text-align: center;
   font-weight: bold;
@@ -259,14 +271,10 @@ a {
     background-image: -ms-linear-gradient(top, #44b0ea 0%, #326483 100%);
   }
 
-  @media (max-width: 1200px) {
-    & {
-      height: 9%;
-    }
-  }
   @media (max-width: 930px) {
     & {
-      height: 10%;
+      font-size: 19px;
+      height: 8%;
       width: 17%;
     }
   }
@@ -276,11 +284,16 @@ a {
       @include border-radius(5px);
     }
   }
-  @media (max-width: 740px) {
+
+  @media (max-width: 768px) {
     & {
+      height: 5%;
+      width: 20%;
+      bottom: 22%;
       font-size: 16px;
     }
   }
+
 
   @media (max-width: 630px) {
     & {

@@ -5,7 +5,7 @@
   }
   .contacts {
     position: absolute;
-    top: 20%;
+    top: 23%;
     bottom: 0;
     right: 0;
     width: 46%;
@@ -15,7 +15,7 @@
     color: white;
   }
   .contactsText {
-    padding: 2% 4% 0 15%;
+    padding: 5% 4% 0 15%;
   }
   .iconItem {
     margin-top: 10px;
@@ -44,7 +44,7 @@
     margin: -30px 0 0 30px;
   }
   p.mySocNetwork {
-    margin: -10px 0 10px;
+    margin: 0 0 10px;
   }
   .contactsSocNetwork {
     span {
@@ -53,6 +53,14 @@
     }
     span:hover {
       color: #121212;
+    }
+  }
+}
+
+@media (max-width: 1100px) {
+  .contactsTrigger {
+    .contacts {
+      top: 20%;
     }
   }
 }
@@ -70,7 +78,6 @@
   .contactsTrigger {
     .contacts {
       top: 10%;
-      width: 48%;
     }
     p {
       font-size: 16px;
@@ -99,9 +106,6 @@
 
 @media (max-width: 700px) {
   .contactsTrigger {
-    .contacts {
-      top: 4%;
-    }
     p {
       font-size: 15px;
     }
@@ -161,7 +165,7 @@
       bottom: 0;
       right: 0;
       width: 96%;
-      margin: 0 auto 3%;
+      margin: 2% auto 5%;
     }
     .contactsText {
       padding: 0;
