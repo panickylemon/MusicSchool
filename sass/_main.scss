@@ -109,19 +109,6 @@ a {
     }
   }
 
-  //@media (max-width: 310px) {
-  //  & {
-  //    top: 2px;
-  //    right: 2px;
-  //    width: 20px;
-  //    height: 20px;
-  //  }
-  //  background-size: 10px;
-  //  cursor: pointer;
-  //  &:hover {
-  //    background-size: 10px;
-  //  }
-  //}
 }
 
 .menuClose {
@@ -148,19 +135,7 @@ a {
       background-size: 17px;
     }
   }
-  //@media (max-width: 700px) {
-  //  & {
-  //    top: 5px;
-  //    left: 20px;
-  //    width: 30px;
-  //    height: 30px;
-  //  }
-  //  background-size: 15px;
-  //  cursor: pointer;
-  //  &:hover {
-  //    background-size: 15px;
-  //  }
-  //}
+
 }
 
 .menuOpen {
@@ -241,6 +216,7 @@ a {
 
   .wrapper_text_button {
     position: absolute;
+    z-index: 10;
     top: 50%;
     right: 0;
     -moz-transform: translate(-40%, -40%);

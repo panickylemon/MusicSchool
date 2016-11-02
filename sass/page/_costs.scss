@@ -1,8 +1,6 @@
 .priceTrigger{
-  padding-bottom: 5%;
-  h2 {
-    margin: 3% 2%;
-  }
+  padding-bottom: 60px;
+
   .itemPrice {
     @include span(6 of 18);
   }
@@ -51,6 +49,7 @@
 
 @media (max-width: 1000px) {
   .priceTrigger{
+    padding-bottom: 50px;
     .wrapperPriceBlock{
       margin: 2% auto 10%;
       height: 310px;
@@ -73,7 +72,6 @@
 
 @media (max-width: 800px) {
   .priceTrigger{
-    padding-bottom: 2%;
     .wrapperPriceBlock{
       width: 98%;
       height: 290px;
@@ -90,7 +88,6 @@
 
 @media (max-width: 550px) {
   .priceTrigger{
-    padding-bottom: 1%;
     .itemPrice {
       @include span(18 of 18);
     }
@@ -122,6 +119,7 @@
 
 @media (max-width: 400px) {
   .priceTrigger{
+    padding-bottom: 40px;
     h3{
       padding: 5px 0;
       font-size: 15px;

@@ -1,38 +1,41 @@
 .reasonsLearn {
   width: 100%;
   background: #e5f5f7;
-  .imgGuitar{
+  .imgGuitar {
     text-align: center;
   }
-  .imgGuitar img{
+  .imgGuitar img {
     width: 15%;
     max-width: 195px;
     margin: 0 auto 2%;
   }
-  .reasonsBlock{
+  .reasonsBlock {
     position: absolute;
     top: 30%;
-    img{
+    img {
       max-width: 30px;
       width: 100%;
     }
   }
-  .leftBlock{
+  .leftBlock {
     text-align: right;
     left: 15%;
   }
-  .rightBlock{
+  .rightBlock {
     right: 15%;
   }
-  .itemReasons{
+  .itemReasons {
     font-size: 19px;
     font-weight: bold;
     color: #220011;
     padding-top: 5px;
     margin-bottom: 20%;
   }
-}
 
+  .wrapperReasonsLearn {
+    margin-bottom: 40px;
+  }
+}
 
 @media (max-width: 1200px) {
   .reasonsLearn {
@@ -47,16 +50,13 @@
 
 @media (max-width: 1025px) {
   .reasonsLearn {
-    h2{
-      margin-bottom: 3%;
-    }
     .leftBlock {
       left: 5%;
     }
     .rightBlock {
       right: 5%;
     }
-    .reasonsBlock{
+    .reasonsBlock {
       top: 25%;
     }
   }
@@ -64,9 +64,13 @@
 
 @media (max-width: 900px) {
   .reasonsLearn {
-    .itemReasons{
+    .itemReasons {
       font-size: 17px;
       margin-bottom: 17%;
+    }
+
+    .reasonsBlock {
+      top: 30%;
     }
   }
 }
@@ -82,10 +86,9 @@
   }
 }
 
-
 @media (max-width: 750px) {
   .reasonsLearn {
-    .itemReasons{
+    .itemReasons {
       font-size: 16px;
       margin-bottom: 13%;
     }
@@ -93,16 +96,14 @@
   }
 }
 
-
 @media (max-width: 695px) {
   .reasonsLearn {
-    .itemReasons{
+    .itemReasons {
       font-size: 14px;
       margin-bottom: 13%;
     }
   }
 }
-
 
 @media (max-width: 610px) {
   .reasonsLearn {
@@ -111,31 +112,32 @@
       content: " ";
       display: table;
     }
-    .imgGuitar{
+    .imgGuitar {
       float: left;
       width: 30%;
       text-align: center;
       img {
         width: 100%;
+        min-width: 140px;
         margin: 5% auto;
-        padding-left:40%;
+        padding-left: 40%;
       }
     }
     .reasonsBlock {
       position: static;
-      img{
+      img {
         max-width: 20px;
       }
     }
-    .twoBlockReasons{
+    .twoBlockReasons {
       float: right;
       margin: 1% 5% 2%;
       width: 50%;
     }
-    .leftBlock{
+    .leftBlock {
       text-align: left;
     }
-    .itemReasons{
+    .itemReasons {
       padding-top: 1px;
       margin-bottom: 3%;
     }
@@ -144,31 +146,27 @@
 
 @media (max-width: 490px) {
   .reasonsLearn {
-    .imgGuitar{
+    .imgGuitar {
       width: 25%;
       text-align: center;
-      img {
-        margin: 32% auto 0;
-        padding-left: 35%;
-      }
+      //img {
+      //  margin: 32% auto 0;
+      //  padding-left: 35%;
+      //}
     }
-    .reasonsBlock {
-      img{
-        max-width: 17px;
-      }
-    }
-    .twoBlockReasons{
+
+    .twoBlockReasons {
       float: right;
       margin: 1% auto 2%;
       width: 60%;
     }
-    .leftBlock{
+    .leftBlock {
       text-align: left;
     }
-    .itemReasons{
+    .itemReasons {
       padding-top: 1px;
       margin-bottom: 3%;
-      font-size: 13px;
+      //font-size: 13px;
     }
 
   }
@@ -176,36 +174,33 @@
 
 @media (max-width: 400px) {
   .reasonsLearn {
-    .imgGuitar{
+    .imgGuitar {
       display: none;
     }
-    h2{
-      margin-bottom: 0;
-    }
-    .twoBlockReasons{
+    .twoBlockReasons {
       float: none;
       margin: 0 auto 2%;
       padding-bottom: 2%;
       width: 245px;
     }
-    .itemReasons{
+    .itemReasons {
       padding: 0;
       margin: -17px 0 0 27px;
     }
     .reasonsBlock {
-      img{
+      img {
         padding-top: 10px;
       }
-      .itemReasons{
-        margin: -17px 0 0 25px;
+      .itemReasons {
+        margin: -17px 0 0 30px;
       }
     }
   }
 }
 
-@media (max-width: 280px){
+@media (max-width: 280px) {
   .reasonsLearn {
-    .twoBlockReasons{
+    .twoBlockReasons {
       margin: 0 auto 4%;
       padding: 0 2% 2%;
       width: 100%;

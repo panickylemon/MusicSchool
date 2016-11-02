@@ -73,9 +73,9 @@
 
 
 h2 {
-  font-size: 27px;
+  font-size: 32px;
   font-weight: bold;
-  margin: 3% 2% 30px;
+  margin: 60px auto 50px;
   text-align: center;
 }
 
@@ -86,23 +86,20 @@ h3 {
 
 @media (max-width: 1025px) {
   h2 {
-    font-size: 25px;
-    margin-bottom: 10px;
+    font-size: 30px;
+    margin: 50px auto 40px;
   }
 }
 
 @media (max-width: 750px) {
   h2 {
-    font-size: 22px;
-  }
-  h3 {
-    font-size: 19px;
+    font-size: 28px;
   }
 }
 
 @media (max-width: 530px) {
   h2 {
-    font-size: 20px;
+    font-size: 26px;
   }
   h3 {
     font-size: 18px;
@@ -111,9 +108,8 @@ h3 {
 
 @media (max-width: 400px) {
   h2{
-    font-size: 17px;
+    font-size: 24px;
+    margin: 40px auto 30px;
   }
-  h3 {
-    font-size: 15px;
-  }
+
 }
