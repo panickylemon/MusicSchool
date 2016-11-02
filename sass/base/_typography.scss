@@ -37,6 +37,20 @@
   font-style: normal;
 }
 
+
+@font-face {
+  font-family: "Patience";
+  src: url("../fonts/Patience/Patience.eot");
+  src: local('☺'),
+  url("../fonts/Patience/Patience.eot?") format("embedded-opentype"),
+  url("../fonts/Patience/Patience.woff") format("woff"),
+  url("../fonts/Patience/Patience.woff2") format("woff2"),
+  url("../fonts/Patience/Patiencev.ttf") format("truetype"),
+  url("../fonts/Patience/Patience.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 @font-face {
   font-family: 'FontAwesome';
   src: url('../bootstrap/fonts/fontawesome-webfont.eot');
