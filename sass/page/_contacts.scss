@@ -142,7 +142,10 @@
     }
     .contacts {
       top: 10%;
+      margin: auto;
       width: 410px;
+      right: 0;
+      left: 0;
     }
     p {
       font-size: 16px;
@@ -177,61 +180,36 @@
     .iconItem {
       margin-top: 5px;
     }
-  }
-}
-
-@media (max-width: 570px) {
-  .contactsTrigger {
-    background: #e5f5f7;
-    img {
-      display: none;
-    }
-    h2 {
-      color: #121212;
-    }
-    p {
-      color: #121212;
-      font-size: 14px;
-      margin: -26px 0 0 25px;
-    }
-    p.mySocNetwork {
-      margin: -22px 0 5px;
-    }
-    .contactsSocNetwork {
-      span {
-        padding-right: 18px;
-      }
-    }
-    .iconItem {
-      span {
-        color: #121212;
-      }
-      .fa-map-marker {
-        padding-left: 2px;
-        font-size: 18px;
-      }
-      .fa-clock-o {
-        font-size: 17px;
-      }
-      .fa-phone {
-        font-size: 18px;
-      }
-      .fa-envelope {
-        font-size: 13px;
-      }
-
-    }
     .contacts {
-      position: relative;
-      top: 0;
-      bottom: 0;
-      right: 0;
-      width: 96%;
-      margin: 2% auto 5%;
+      width: 310px;
+      top: 20%;
     }
-    .contactsText {
+    .contactsText{
       padding: 0;
     }
   }
 }
 
+@media (max-width: 570px) {
+  .contactsTrigger {
+    .wrapperContactsContent {
+      background: url("../image/contacts-mobile.png") no-repeat center top;
+      height: 420px;
+    }
+    .contacts {
+      top: 16%;
+    }
+  }
+}
+
+@media (max-width: 350px) {
+  .contactsTrigger {
+    .contacts {
+      width: 100%;
+      padding: 0 10px;
+    }
+    h2{
+      margin: 0 0 40px 0;
+    }
+  }
+}

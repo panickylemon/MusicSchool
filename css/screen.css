@@ -1950,104 +1950,76 @@ a {
   /* line 143, ../sass/page/_contacts.scss */
   .contactsTrigger .contacts {
     top: 10%;
+    margin: auto;
     width: 410px;
+    right: 0;
+    left: 0;
   }
-  /* line 147, ../sass/page/_contacts.scss */
+  /* line 150, ../sass/page/_contacts.scss */
   .contactsTrigger p {
     font-size: 16px;
     margin: -26px 0 0 30px;
   }
-  /* line 152, ../sass/page/_contacts.scss */
+  /* line 155, ../sass/page/_contacts.scss */
   .contactsTrigger .iconItem .fa-map-marker {
     padding-left: 3px;
     font-size: 20px;
   }
-  /* line 156, ../sass/page/_contacts.scss */
+  /* line 159, ../sass/page/_contacts.scss */
   .contactsTrigger .iconItem .fa-clock-o {
     font-size: 19px;
   }
-  /* line 159, ../sass/page/_contacts.scss */
+  /* line 162, ../sass/page/_contacts.scss */
   .contactsTrigger .iconItem .fa-phone {
     font-size: 20px;
   }
-  /* line 162, ../sass/page/_contacts.scss */
+  /* line 165, ../sass/page/_contacts.scss */
   .contactsTrigger .iconItem .fa-envelope {
     font-size: 15px;
   }
 }
 @media (max-width: 700px) {
-  /* line 171, ../sass/page/_contacts.scss */
+  /* line 174, ../sass/page/_contacts.scss */
   .contactsTrigger p {
     font-size: 15px;
   }
-  /* line 174, ../sass/page/_contacts.scss */
+  /* line 177, ../sass/page/_contacts.scss */
   .contactsTrigger p.mySocNetwork {
     margin: -10px 0 10px;
   }
-  /* line 177, ../sass/page/_contacts.scss */
+  /* line 180, ../sass/page/_contacts.scss */
   .contactsTrigger .iconItem {
     margin-top: 5px;
   }
-}
-@media (max-width: 570px) {
-  /* line 184, ../sass/page/_contacts.scss */
-  .contactsTrigger {
-    background: #e5f5f7;
-  }
-  /* line 186, ../sass/page/_contacts.scss */
-  .contactsTrigger img {
-    display: none;
-  }
-  /* line 189, ../sass/page/_contacts.scss */
-  .contactsTrigger h2 {
-    color: #121212;
-  }
-  /* line 192, ../sass/page/_contacts.scss */
-  .contactsTrigger p {
-    color: #121212;
-    font-size: 14px;
-    margin: -26px 0 0 25px;
-  }
-  /* line 197, ../sass/page/_contacts.scss */
-  .contactsTrigger p.mySocNetwork {
-    margin: -22px 0 5px;
-  }
-  /* line 201, ../sass/page/_contacts.scss */
-  .contactsTrigger .contactsSocNetwork span {
-    padding-right: 18px;
-  }
-  /* line 206, ../sass/page/_contacts.scss */
-  .contactsTrigger .iconItem span {
-    color: #121212;
-  }
-  /* line 209, ../sass/page/_contacts.scss */
-  .contactsTrigger .iconItem .fa-map-marker {
-    padding-left: 2px;
-    font-size: 18px;
-  }
-  /* line 213, ../sass/page/_contacts.scss */
-  .contactsTrigger .iconItem .fa-clock-o {
-    font-size: 17px;
-  }
-  /* line 216, ../sass/page/_contacts.scss */
-  .contactsTrigger .iconItem .fa-phone {
-    font-size: 18px;
-  }
-  /* line 219, ../sass/page/_contacts.scss */
-  .contactsTrigger .iconItem .fa-envelope {
-    font-size: 13px;
-  }
-  /* line 224, ../sass/page/_contacts.scss */
+  /* line 183, ../sass/page/_contacts.scss */
   .contactsTrigger .contacts {
-    position: relative;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    width: 96%;
-    margin: 2% auto 5%;
+    width: 310px;
+    top: 20%;
   }
-  /* line 232, ../sass/page/_contacts.scss */
+  /* line 187, ../sass/page/_contacts.scss */
   .contactsTrigger .contactsText {
     padding: 0;
+  }
+}
+@media (max-width: 570px) {
+  /* line 195, ../sass/page/_contacts.scss */
+  .contactsTrigger .wrapperContactsContent {
+    background: url("../image/contacts-mobile.png") no-repeat center top;
+    height: 420px;
+  }
+  /* line 199, ../sass/page/_contacts.scss */
+  .contactsTrigger .contacts {
+    top: 16%;
+  }
+}
+@media (max-width: 350px) {
+  /* line 207, ../sass/page/_contacts.scss */
+  .contactsTrigger .contacts {
+    width: 100%;
+    padding: 0 10px;
+  }
+  /* line 211, ../sass/page/_contacts.scss */
+  .contactsTrigger h2 {
+    margin: 0 0 40px 0;
   }
 }
